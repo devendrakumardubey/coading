@@ -1,0 +1,14 @@
+n=int(input())
+a=0
+b=1
+c=a+b
+print(a,end=" ")
+print(b,end=" ")
+while((n-2)!=0):
+        print(c,end=" ")
+        a=b
+        b=c
+        c=a+b
+        n=n-1
+
+    
